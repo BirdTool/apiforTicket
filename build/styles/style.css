@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vh;
+    background-color: rgba(145, 140, 115, 0.51);
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+body {
+    font-family: Arial;
+}
+img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
