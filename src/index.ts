@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     async function generateZipFile(token: string) {
         try {
             // Ler o arquivo zip existente
-            const response = await fetch('../ticketPTB.zip');
+            const response = await fetch('./ticketPTB.zip');
             if (!response.ok) {
                 throw new Error('Não foi possível carregar o arquivo base');
             }
