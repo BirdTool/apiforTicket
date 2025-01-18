@@ -1,16 +1,25 @@
 {
   "name": "ticketsite",
-  "version": "1.4.1",
-  "type": "module",
-  "main": "build/index.js",
+  "version": "2.0.0",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx src/index.ts",
-    "start": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jszip": "^3.10.1",
+    "typescript": "^5.7.3",
+    "webpack-cli": "^6.0.1"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7",
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.3"
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "ts-loader": "^9.5.2"
   }
 }

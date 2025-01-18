@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TickTool</title>
+    <title>Criando ticketPTB</title>
     <link rel="stylesheet" href="src/styles/style.css">
 </head>
 <body>
-    <img src="https://th.bing.com/th/id/OIP.--xWYKnfGvwQ4x8cuXNdbQHaHa?rs=1&pid=ImgDetMain" alt="TickTool">
-    <div class="container">
-        <h1>TickTool</h1>
-        <h2>Esse site ainda não está pronto!</h2>
-        <h3>Aguarde a próxima versão!</h3>
+    <div class="Producting">
+        <h1 class="title">Bem vindo</h1>
+        <p>Coloque o token do seu bot aqui para eu gerar seu arquivo zipado</p>
+        <input type="text" id="token" placeholder="Token do bot">
+        <br>
+        <button id="generate">Gerar</button>
+        <div class="result" id="result">
+            <p>Seu arquivo zipado está pronto para download</p>
+            <p class="download-status">O download começará automaticamente...</p>
+            <a href="#" id="download" class="manual-download">O download não começou automaticamente? Clique aqui</a>
+        </div>
+        <div class="footer">
+            <p>github: <a href="https://github.com/BirdTool/tickTool-b/">BirdTool/tickTool-b</a></p>
+            <p>versão: 1.4.3</p>
+            <p>Feito por: <a href="https://github.com/BirdTool/ticktool-b/">BirdTool</a></p>
+        </div>
     </div>
+    <script src="dist/bundle.js"></script>
 </body>
 </html>
